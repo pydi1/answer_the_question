@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body class="text-center d-flex flex-row justify-content-center">
+    <h1 class="head1">Answer the Question</h1>
+    <div class="divbox p-3 m-4">
+        <p class="head2">What is the capital of India?</p>
+        <form id="questionsForm" class="text-left p-3">
+
+            <input value="Hyderabad" id="cityHyderabad" name="country" type="radio">
+            <label for="cityHyderabad">Hyderabad</label><br />
+
+
+            <input value="Chennai" id="cityChennai" name="country" type="radio">
+            <label id="cityChennai">Chennai</label><br />
+
+
+            <input value="Delhi" id="cityDelhi" name="country" type="radio">
+            <label id="cityDelhi">Delhi</label><br />
+
+
+            <input value="Mumbai" id="cityMumbai" name="country" type="radio">
+            <label id="cityMumbai">Mumbai</label><br />
+
+            <button id="submitBtn" class="btn btn-primary text-center">Submit</button>
+            <p class="mt-3" id="resultMsg"></p>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
